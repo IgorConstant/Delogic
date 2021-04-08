@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+.spacing {
+  display: block;
+  height: 20px;
+
+  &-lg {
+    height: 30px;
+  }
+
+  &-sm {
+    height: 3.5px;
+  }
+
+  &-md {
+    height: 13px;
+  }
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  font-family: "Roboto", sans-serif;
+}
+
+.block-title {
+  h1,
+  h2 {
+    font-weight: 100;
+    color: #4099bb;
+  }
+
+  p,
+  ul > li {
+    color: #a6a6a6;
+  }
+
+  @media (min-width: $breakpoint-large) {
+    h1 {
+      padding-top: 50px;
+    }
+  }
+}
+
+table {
+  font-size: 14px;
+  font-weight: bold;
+  width: 100%;
+}
+
+.icons-footer {
+  margin-top: 40px;
+  padding-bottom: 30px;
+}
+
+.block-text {
+  h1 {
+    color: $white-font;
+    font-weight: 100;
+  }
+}
+
+#block-image {
+  @media (min-width: $breakpoint-large) {
+    .block-title {
+      width: 88%;
+    }
+  }
+}
+
+/*Balão Home*/
+.ballon-area {
+  margin-top: 20px;
+
+  @media (min-width: $breakpoint-large) {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.ballon-delogic {
+  background-color: #00c1d1;
+  position: relative;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+
+  @media (min-width: $breakpoint-large) {
+    height: 215px;
+    width: 404px;
+    margin-top: -136px;
+  }
+
+  .uk-button {
+    background-color: #00aac5;
+    color: #fff;
+    padding: 15px;
+  }
+
+  h1 {
+    color: $white-font !important;
+    font-weight: 100;
+  }
+
+  p{
+    color: #fff!important;
+  }
+
+  :after {
+    content: "";
+    width: 0;
+    height: 0;
+
+    position: absolute;
+
+    border-left: 72px solid transparent;
+    border-top: 57px solid #00c1d1;
+
+    bottom: -56px;
+    right: 20%;
+  }
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.block-download {
+  h1 {
+    font-weight: 100;
+    color: #fff;
+  }
+}
+
+.btn-download {
+  .uk-button {
+    background: transparent;
+    border: 2px solid #fff;
+    margin: 40px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+
+    
+  }
+}
+
+@media (min-width: $breakpoint-large) {
+  iframe {
+    width: 1280px;
+    height: 720px;
+  }
+}
+

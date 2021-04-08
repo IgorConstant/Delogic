@@ -1,0 +1,152 @@
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background-color: #00b4c3 !important;
+}
+
+.owl-prev {
+  @media (min-width: $breakpoint-large) {
+    float: right;
+    margin-right: 262px !important;
+    margin-bottom: 14px !important;
+    margin-top: 5px !important;
+  }
+
+  > img {
+    margin-top: 4px;
+  }
+
+  @media (max-width: $breakpoint-medium) {
+    float: right;
+    margin-right: 20px !important;
+  }
+}
+
+.owl-dots {
+  @media (min-width: $breakpoint-large) {
+    float: right;
+    margin-right: 15px !important;
+  }
+}
+
+.owl-dot.active > span {
+  border-radius: 0px !important;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  background-color: #00b4c3 !important;
+}
+
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  background: transparent !important;
+}
+
+/* Uk Slider */
+.uk-dotnav > .uk-active > * {
+  background-color: #00b4c3;
+  border-radius: 50px;
+}
+
+.uk-dotnav > * > * {
+  border-radius: 0px;
+  background-color: #00b4c3;
+  border-color: #00b4c3;
+}
+
+.carousel-text {
+  font-weight: 100;
+
+  @media (min-width: $breakpoint-large) {
+    font-size: 60px;
+  }
+}
+
+.owl-prev > img {
+  margin-top: 12px;
+  width: 70%;
+}
+
+#carousel-desktop, #carousel-mobile, #carousel-main{
+  h1 {
+    font-weight: 100;
+
+    @media (min-width: $breakpoint-large) {
+      width: 64%;
+    }
+  }
+  .btn-banner {
+    color: #fff;
+    background-color: #007086;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  svg:not(:root) {
+    display: none;
+  }
+
+  @media (min-width: $breakpoint-large) {
+    p {
+      width: 650px;
+      font-size: 17px;
+    }
+  }
+
+  .title-sgi {
+    width: 100%;
+  }
+
+  .slider-nav {
+    margin-top: 14px;
+  }
+
+  .indicators {
+    margin-right: 35px;
+  }
+}
+
+#carousel-products {
+  h1 {
+    width: 100%;
+  }
+}
+
+#carousel-main,
+#carousel-main-mobile {
+  svg:not(:root) {
+    display: none;
+  }
+
+  .first-title {
+    color: $blue-delogic;
+  }
+
+  .first-text {
+    color: #a6a6a6;
+  }
+
+  .first-title,
+  .second-title,
+  .third-title {
+    font-weight: 100;
+  }
+
+  .second-text,
+  .third-text {
+    color: #fff;
+  }
+
+  .indicators {
+    margin-right: 15px;
+  }
+
+  .slider-nav {
+    margin-top: 14px;
+  }
+}
+
+.carousel-parceiros {
+  h2 {
+    font-weight: 100;
+    color: $blue-delogic;
+  }
+}

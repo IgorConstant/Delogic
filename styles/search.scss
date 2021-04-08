@@ -1,0 +1,76 @@
+#results-banner {
+  h1 {
+    font-weight: 100;
+    color: #fff;
+  }
+
+  img:not([src]) {
+    visibility: visible;
+    width: 100%;
+    margin-bottom: 0px !important;
+
+    @media (min-width: $breakpoint-large) {
+      width: 380px;
+      height: 253.23px;
+    }
+  }
+
+  .block-title-banner{
+    h2{
+      color: $blue-delogic;
+      font-weight: 100;
+    }
+  }
+
+  p {
+    display: none;
+  }
+
+  .rss-container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    .uk-card-header {
+      border: 1px solid #e5e5e5;
+      background: #fff;
+
+      .fa-tags {
+        color: $blue-delogic;
+      }
+
+      .feed_category {
+        color: $blue-delogic;
+      }
+
+      .uk-card-title {
+        font-size: 13px;
+        font-weight: bold;
+        text-transform: uppercase;
+
+        .feed_title {
+          color: $blue-delogic;
+        }
+      }
+    }
+
+    .uk-card-body {
+      p {
+        display: none;
+      }
+    }
+
+    .uk-card-footer {
+      border: 1px solid #e5e5e5;
+      background: #fff;
+
+      .uk-button-text {
+        color: $blue-delogic;
+        font-weight: bold;
+      }
+
+      .uk-button-text::before {
+        border-bottom: 1px solid #3db4c4;
+      }
+    }
+  }
+}

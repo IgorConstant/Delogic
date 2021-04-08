@@ -1,0 +1,22 @@
+.accordion-mobile{
+    .uk-accordion-title{
+        color: $blue-delogic;
+        font-weight: 100;
+        font-size: 17px;
+    }
+
+    .uk-accordion-title::before{
+        float: left;
+        background-image: url(../../assets/images/site/ind-diferencial.png);
+    }
+
+    .uk-open > .uk-accordion-title::before{
+        background-image: url(../../assets/images/site/ind-diferencial-open.png);
+    }
+
+    .uk-accordion-content{
+        p{
+            padding: 0px 20px;
+        }
+    }
+}

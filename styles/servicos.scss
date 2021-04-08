@@ -1,0 +1,61 @@
+#o-que-fazemos,
+#servicos-nuvem {
+  ul {
+    list-style: none;
+    padding-left: 0px;
+
+    > li {
+      color: #a6a6a6;
+      margin-bottom: 10px;
+    }
+  }
+
+  .ballon-delogic {
+    margin-top: 30px;
+  }
+
+  .block-button {
+    background-color: $blue-delogic;
+    .content {
+      h3,
+      p {
+        color: #fff;
+        font-weight: 100;
+      }
+    }
+
+    .uk-button-default {
+      color: #fff;
+      margin-bottom: 5px;
+      background-color: #00aac5;
+      border-color: #00aac5;
+      font-weight: bold;
+
+      @media (max-width: $breakpoint-medium) {
+        line-height: 23px;
+      }
+    }
+  }
+}
+
+#tables-services {
+  p {
+    color: #a6a6a6;
+  }
+
+  .stripped-table {
+    .stripped-blue {
+      background: #a9d7e3;
+    }
+
+    .stripped-light-blue {
+      background: #d4ebf1;
+    }
+
+    td {
+      padding: 12px;
+      color: #239cb8;
+      margin-bottom: 10px;
+    }
+  }
+}

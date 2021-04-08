@@ -1,0 +1,173 @@
+#informacoes-delogic {
+  background-image: url(../../assets/images/site/sistema-delogic.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#fabrica-de-software {
+  background-image: url(../../assets/images/site/fabrica-de-software.png);
+  background-size: cover;
+}
+
+#block-image {
+  background-color: #f2f4f4;
+
+  .block-segmento {
+    position: relative;
+    margin-bottom: 30px;
+
+    .icons {
+      background-color: $blue-delogic;
+      border-radius: 50%;
+      width: 73px;
+      height: 73px;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 10px;
+
+      > img {
+        max-width: 40px;
+      }
+    }
+
+    .segmento {
+      color: #a6a6a6;
+      text-transform: uppercase;
+      font-size: 14px;
+    }
+  }
+
+  .block-segmento:hover {
+    background: #fff;
+    text-align: center;
+    border-radius: 15px;
+
+    .btn-segmento {
+      display: block;
+      text-decoration: none;
+    }
+  }
+
+  .btn-segmento {
+    position: absolute;
+    bottom: -29px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background: $blue-delogic;
+    color: #fff;
+    height: 31px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 900 !important;
+    display: none;
+  }
+
+  .uk-button {
+    padding: 0px !important;
+  }
+}
+
+#contato {
+  background-image: url(../../assets/images/site/rodape.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#intro-leansgi {
+  background-image: url(../../assets/images/site-leansgi/produtos.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#escolha-delogic,
+#capacitacao-delogic,
+#o-que-fazemos,
+#tecnologia-delogic,
+#missao-delogic {
+  background-color: #f2f4f4;
+}
+
+#cards-investimento {
+  background-image: url(../../assets/images/site-leansgi/qualidade-empresa.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#gestao-nuvem {
+  background-image: url(../../assets/images/site-leansgi/gestao-de-informacao.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#cases-de-sucesso {
+  background-image: url(../../assets/images/site-leansgi/cases-de-sucesso.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#icons-segmentos {
+  background-color: #f2f4f4;
+}
+
+#servicos-nuvem {
+  background-image: url(../../assets/images/site/banner-nuvem.png);
+  background-position: center;
+  background-size: cover;
+}
+
+#desenvolvimento-delogic {
+  background-image: url(../../assets/images/site/desenvolvimento-bg.png);
+  background-size: cover;
+  background-position: right;
+}
+
+#contrato-delogic,
+#intro-lean {
+  background-image: url(../../assets/images/site/contrato-delogic.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#download-app {
+  background-image: url(../../assets/images/site/banner-aplicativo.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#post-1,
+#post-3 {
+  background-image: url(../../assets/images/site/desenvolvimento-bg.png);
+  background-size: cover;
+}
+
+#post-2 {
+  background-image: url(../../assets/images/site/background-webnair.png);
+}
+
+#banner-contato {
+  background-image: url(../../assets/images/site/banner-faleconosco.png);
+  background-size: cover;
+  background-position: center;
+  
+  @media(max-width: 1366px){
+    height: 442px;
+  }
+  
+
+  @media(min-width: 1400px){
+    height: 642px;
+  }
+}
+
+@media (max-width: $breakpoint-medium) {
+  #banner-contato {
+    background-image: url(../../assets/images/site/banner-mobile-fale-conosco.jpg) !important;
+    background-size: cover;
+    background-position: center;
+  }
+}

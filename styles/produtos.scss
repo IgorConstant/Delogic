@@ -1,0 +1,134 @@
+#product-description {
+  .block-title {
+    h1 {
+      font-size: 50px;
+      @media (min-width: $breakpoint-large) {
+        text-align: center;
+      }
+    }
+  }
+
+  .content {
+    p {
+      color: #a6a6a6;
+
+      @media (min-width: $breakpoint-large) {
+        padding-left: 70px;
+        padding-right: 70px;
+        text-align: center !important;
+      }
+    }
+  }
+
+  .content-product-sgi,
+  .content-product-5s {
+    color: #a6a6a6;
+  }
+
+  @media (min-width: $breakpoint-large) {
+    .card-sgi {
+      padding-right: 116px;
+      padding-left: 65px;
+    }
+
+    .block-image-sgi {
+      padding-right: 175px;
+    }
+
+    .block-image-title {
+      margin-top: 50px;
+    }
+
+    .content-product-5s {
+      padding-right: 187px;
+    }
+  }
+
+  .btn-product {
+    background-color: #00b4c3;
+    color: #fff;
+  }
+}
+
+#intro-lean {
+  .ballon-delogic {
+    margin-top: -10px;
+    margin-bottom: 47px;
+  }
+}
+
+#lean5s-steps {
+  .filter-delogic {
+    .uk-subnav-pill > .uk-active > a {
+      background-image: linear-gradient(to right, #199db7, #0084ab);
+      font-weight: bold;
+    }
+
+    .uk-subnav > * {
+      margin-bottom: 10px;
+    }
+  }
+
+  .uk-subnav-pill > * > :first-child {
+    background-color: #dbdbdb;
+    padding: 10px 110px;
+  }
+
+  .content-text {
+    color: #a6a6a6;
+  }
+}
+
+#intro-lean5s {
+  h3 {
+    color: #fff;
+    font-weight: 100;
+  }
+
+  .card-simplifique {
+    background-color: #0084ab;
+    color: #fff;
+  }
+  .card-compativel {
+    background-color: #008da5;
+    color: #fff;
+  }
+  .card-configure {
+    background-color: #00b3c2;
+    color: #fff;
+
+    .fa-chevron-circle-right:before {
+      color: #fff;
+    }
+  }
+
+  ul {
+    font-size: 12px;
+  }
+}
+
+.grid-lean {
+  .block-button {
+    background-color: $blue-delogic;
+
+    .content {
+      h3,
+      p {
+        color: #fff;
+        font-weight: 100;
+      }
+    }
+
+    .uk-button-default {
+      color: #fff;
+      margin-bottom: 5px;
+      background-color: #00aac5;
+      border-color: #00aac5;
+      font-weight: bold;
+
+      @media (max-width: $breakpoint-medium) {
+        line-height: 23px;
+      }
+    }
+  }
+}

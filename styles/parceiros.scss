@@ -1,0 +1,13 @@
+#parceiros{
+    @media(min-width: $breakpoint-large){
+
+        .block-image{
+            >img{
+                padding-top: 48px;
+            }
+        }
+
+    }
+
+    margin-bottom: 40px;
+}

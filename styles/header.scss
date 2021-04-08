@@ -1,0 +1,65 @@
+.uk-navbar-container:not(.uk-navbar-transparent) {
+  background: #f2f4f4;
+  height: 100px;
+
+  .uk-navbar-nav > li.uk-active > a {
+    color: $blue-delogic;
+    font-weight: bold;
+  }
+
+  .links {
+    color: $blue-delogic;
+    font-weight: bold;
+  }
+
+  .off-canvas {
+    font-weight: 100;
+    color: $blue-delogic;
+    margin-right: 15px;
+    font-size: 18px;
+  }
+
+  svg {
+    color: $blue-delogic;
+  }
+
+  @media (min-width: $breakpoint-large) {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .icons-header {
+    min-height: 42px;
+    border-radius: 100%;
+    background: #cdcdcd;
+    color: #fff;
+    margin: 4px;
+    min-width: 42px;
+  }
+}
+
+#offcanvas-nav-primary {
+  .uk-offcanvas-bar {
+    background: #f2f4f4;
+  }
+
+  .uk-offcanvas-bar .uk-nav-primary > li.uk-active > a {
+    color: $blue-delogic;
+  }
+
+  .uk-offcanvas-bar .uk-nav-primary > li > a,
+  .uk-nav-divider {
+    color: $blue-delogic;
+    font-weight: 100;
+  }
+
+  .uk-offcanvas-bar .uk-nav-primary .uk-nav-divider {
+    border-top-color: $blue-delogic;
+  }
+
+  .icons-social {
+    display: inline-block;
+    padding-right: 4px;
+    margin: 5px;
+  }
+}

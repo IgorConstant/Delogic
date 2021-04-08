@@ -1,0 +1,26 @@
+#missao-delogic {
+  .filter-delogic {
+    .uk-subnav-pill > .uk-active > a {
+      background-image: linear-gradient(to right, #199db7, #0084ab);
+      font-weight: bold;
+    }
+
+    .uk-subnav > * {
+      margin-bottom: 10px;
+    }
+  }
+
+  .uk-subnav-pill > * > :first-child {
+    background-color: #dbdbdb;
+    padding: 12px 168px;;
+  }
+
+  .uk-subnav{
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.fa-chevron-circle-right:before{
+  color: #3db4c4;
+}

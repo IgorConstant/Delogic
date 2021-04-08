@@ -1,0 +1,76 @@
+.sidebar-social {
+  background-color: $blue-delogic;
+  position: fixed;
+  width: 45px;
+  top: 0;
+  right: 0;
+  bottom: 20px;
+  top: 40%;
+  display: table;
+  z-index: 2;
+
+  a {
+    color: $blue-delogic;
+    font-size: 20px;
+    background-color: #fff;
+    border-radius: 100%;
+  }
+
+  .fb {
+    padding: 4px 10px;
+  }
+
+  .linkedin {
+    padding: 5px 8px;
+  }
+
+  .youtube {
+    padding: 5px;
+  }
+
+  .email {
+    padding: 4px 7px;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style: none;
+
+    > li {
+      margin: 10px 0;
+    }
+  }
+
+  @media (max-width: $breakingpoint-ipad) {
+    top: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    max-width: 100%;
+    z-index: 1000200;
+
+    a {
+      position: relative;
+      margin: 0;
+      outline-offset: -1px;
+      text-align: center;
+      float: left;
+      transition: width 0.15s ease-in-out;
+      overflow: hidden;
+      z-index: 100030;
+      cursor: pointer;
+      border-radius: 0px;
+      width: 25%;
+      color: #fff;
+      background: none;
+    }
+  
+    .fb,.linkedin,.youtube,.email{
+      padding: 0px;
+    }
+  }
+
+}

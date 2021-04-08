@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+// 1. Váriveis Customizadas
+$white-font: #fff;
+$blue-delogic: #3db4c4;
+$blue-buttons: #0786ab;
+$breakingpoint-ipad: 1024px;
+
+// 2. Import Padrão de Váriaveis.
+@import "../node_modules/uikit/src/scss/variables-theme.scss";
+@import "../node_modules/uikit/src/scss/mixins-theme.scss";
+
+// 3. Mixins Customizados.
+@mixin hook-card() { color: #000; }
+
+// 4. Import da Framework.
+@import "../node_modules/uikit/src/scss/uikit.scss";
+@import "footer";
+@import "header";
+@import "base";
+@import "image";
+@import "infos-delogic";
+@import "fabrica-software";
+@import "carousel";
+@import "parceiros";
+@import "produtos";
+@import "lean-sgi";
+@import "accordion";
+@import "social-bar";
+@import "segmentos";
+@import "servicos";
+@import "quem-somos";
+@import "blog";
+@import "webnair";
+@import "search";
